@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset='utf-8' />
+  <title>おるやんけタイピング</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #222;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #description {
+      margin-top: .5em;
+      font-size: .8em;
+      color: #999;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:link,
+    a:visited {
+      color: #d63030;
+    }
+
+    a:hover {
+      color: #ffffff;
+    }
+
+    a:active {
+      color: #999;
+    }
+
+    #stats {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  </style>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@gomihitomi">
+  <meta property="og:url" content="https://gomihitosi.github.io/petbottlefactory/">
+  <meta property="og:title" content="ペットボトル工場">
+  <meta property="og:description" content="アットホームな職場です">
+  <meta property="og:image" content="https://gomihitosi.github.io/petbottlefactory/card.png">
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+  <script src='./js/phina.min.js'></script>
+
+  <script src='./js/init.js'></script>
+  <script src='./js/title.js'></script>
+  <script src='./js/main.js'></script>
+  <script src='./js/result.js'></script>
+</body>
+
+</html>
